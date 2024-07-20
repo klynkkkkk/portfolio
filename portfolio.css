@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.container {
+  height: 70px;
+  display: flex;
+  text-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 0 100px;
+  background-color: rgb(255, 211, 238);
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  padding: 20px 20px;
+}
+ul li {
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  height: 76px;
+  color: white;
+}
+ul li:hover {
+  background-color: white;
+  color: pink;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.img-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("img/IMG_8101\ 2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.layer {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: rgb(246, 194, 221);
+  opacity: 0.25;
+}
+.layer-title {
+  color: white;
+  font-size: 50px;
+  z-index: 1;
+  text-align: center;
+  padding-top: 10px;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 150px;
+  color: rgb(245, 202, 232);
+}
+.about-content {
+  width: 80vw;
+  background-color: rgb(252, 221, 236);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding-right: 50px;
+  border-radius: 10px;
+  box-shadow: 20px gray;
+  font-size: medium;
+  color: rgb(33, 33, 33);
+}
+.item {
+  width: 100%;
+  padding: 40px;
+  padding-top: 10px;
+}
+.intro-2 {
+  width: 50%;
+  padding: 40px;
+}
+.intro-2 hr {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.intro-2 p {
+  line-height: 25px;
+}
+.img {
+  width: 225px;
+  margin-top: 40px;
+  margin-left: 120px;
+}
+.resume {
+  width: 100%;
+  text-wrap: wrap;
+  align-items: center;
+  height: 400px;
+  background-image: url(img/Aswangpaints.JPEG);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.cover {
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-color: rgb(31, 30, 31);
+  opacity: 0.3;
+}
+.education {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  justify-content: space-around;
+  color: white;
+  z-index: 1;
+}
+.edu-item {
+  text-align: center;
+  font-size: large;
+}
+.edu-item h4 {
+  font-size: 30px;
+  margin-top: 30px;
+}
+.edu-item p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.edu-item i {
+  font-size: 80px;
+}
+.edu-text {
+  text-align: center;
+  position: relative;
+  font-size: 30px;
+  margin: 50px 0px;
+  padding-top: 50px;
+  z-index: 1;
+}
+.edu-text > h2 {
+  color: white;
+}
+.Extracurricular {
+  height: 100vh;
+  position: relative;
+}
+.bg {
+  height: 350px;
+  position: relative;
+  width: 100%;
+  background-color: rgb(255, 211, 238);
+}
+.activies {
+  position: absolute;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 130px;
+}
+.club {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+}
+.club-img {
+  height: 300px;
+  width: 400px;
+}
+.club-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.club h3 {
+  padding: 15px 0px 0px 15px;
+}
+.club h4 {
+  padding: 15px;
+}
+.sports {
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  margin-top: 400px;
+  padding: 50px 50px;
+}
+.sports-item {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sports-img {
+  height: 300px;
+  width: 40%;
+  margin: 10px 10px;
+}
+.sports-img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+.sports-text {
+  width: 50%;
+  padding: 80px 80px;
+  font-size: 18px;
+}
+.sports-text h3 {
+  padding: 30px 30px;
+}
+.sports-text p {
+  line-height: 30px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: rgb(255, 210, 235);
+  margin-top: 100px;
+}
+.contact-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 70%;
+  background-color: white;
+  padding: 50px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.contact-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  font-size: 30px;
+}
+.contact-info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+}
+.contact-info ul {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.contact-info li {
+  color: black;
+  font-size: 18px;
+  padding: 10px 10px;
+  margin-left: 0;
+  text-align: left;
+}
+.socials i {
+  padding: 20px 20px 20px 0;
+}
+.contact-content input {
+  height: 30px;
+  width: 400px;
+  margin: 10px 10px 10px 0;
+  font-size: 15px;
+}
+.contact-content textarea {
+  height: 100px;
+  width: 400px;
+  margin: 10px 10px 10px 0;
+  font-size: 15px;
+}
+.contact-content button {
+  padding: 15px 15px;
+  margin: 10px 10px 10px 0;
+  border-radius: 10px;
+  background-color: palevioletred;
+  font-size: 15px;
+}
